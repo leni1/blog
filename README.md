@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a code along for the [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) tutorial. 
 
-Things you may want to cover:
+## License
 
-* Ruby version
+MIT
 
-* System dependencies
+## Getting started
 
-* Configuration
+Clone the repo and install the gems
 
-* Database creation
+```bash
+$ git clone 
 
-* Database initialization
+$ bundle install
+```
 
-* How to run the test suite
+Migrate the database:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+$ rails db:migrate
+```
 
-* Deployment instructions
+Run the app in a local server:
 
-* ...
+```bash
+$ rails server
+```
